@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
     background-color:burlywood;
     font-family: Arial, Helvetica, sans-serif;
@@ -45,4 +46,53 @@ buttom{
 button:hover{
     background-color:beige;
     color:#ffffff;
+=======
+body{
+    background-color:burlywood;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+.holder{
+    background-color:rgb(189, 124, 40);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 3px rgb(0,0,0);
+    text-align: center;
+}
+label{
+    display:block;
+    margin-bottom: 5px;
+    color:rgb(0, 0%, 0%);
+}
+.inputBox{
+    margin-bottom: 5px;
+}
+input[type="text"]{
+    width: calc(100% -22px);
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #5f5a5a;
+}
+buttom{
+
+    padding: 10px 10px;
+    border: none;
+    background-color:#f0c287;
+    color:black ;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.btn{
+    display: flex;
+    justify-content:space-evenly;
+    margin-top: 20px;
+
+}
+button:hover{
+    background-color:beige;
+    color:#ffffff;
+>>>>>>> 7161a8d54c295898237c3454baf2e971866cb69b
 }
